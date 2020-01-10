@@ -2,7 +2,12 @@
   display: flex;
   justify-content: space-between;
 
+  background-color: transparent;
+  color: white;
+
+  position: fixed;
+
   span {
-    padding-right: 1rem;
+    padding-left: 2rem;
   }
 }
