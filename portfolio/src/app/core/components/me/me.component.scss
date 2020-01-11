@@ -1,10 +1,5 @@
 .container {
-  overflow: scroll;
-  scrollbar-width: none;
-}
-.container::-webkit-scrollbar {
-  width: 0px;
-  background: transparent;
+  overflow-x: hidden;
 }
 
 section {
