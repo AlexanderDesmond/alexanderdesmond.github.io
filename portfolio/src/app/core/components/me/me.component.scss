@@ -43,7 +43,7 @@ section {
   }
 }
 
-.technologies {
+.technologies-container {
   background-color: #202020;
   color: #e0e0e0;
 
@@ -51,6 +51,47 @@ section {
   flex-direction: column;
   justify-content: top;
   align-items: center;
+
+  h2 {
+    margin-top: 10%;
+  }
+
+  .technologies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 90vw;
+
+    .technology-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      margin: 1%;
+      flex-basis: 20%;
+
+      .technology {
+        //border-radius: 50%;
+        background-color: #e0e0e0;
+
+        width: 10em;
+        height: 10em;
+
+        .logo {
+          width: 10em;
+          height: 10em;
+        }
+      }
+
+      h4 {
+        font-size: 1.5rem;
+        font-weight: 500;
+      }
+    }
+  }
 }
 
 h2 {

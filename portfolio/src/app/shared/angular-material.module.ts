@@ -8,11 +8,15 @@ import { MatIconModule } from "@angular/material/icon";
 import { MatMenuModule } from "@angular/material/menu";
 import { MatSidenavModule } from "@angular/material/sidenav";
 
+// Layout
+import { MatCardModule } from "@angular/material/card";
+
 const modules: any[] = [
   MatToolbarModule,
   MatIconModule,
   MatMenuModule,
-  MatSidenavModule
+  MatSidenavModule,
+  MatCardModule
 ];
 
 @NgModule({

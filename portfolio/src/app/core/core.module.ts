@@ -16,6 +16,6 @@ import { AppRoutingModule } from "../app-routing.module";
     MeComponent
   ],
   imports: [CommonModule, AngularMaterialModule, AppRoutingModule],
-  exports: [HeaderComponent, HomeComponent]
+  exports: [HeaderComponent, HomeComponent, MeComponent]
 })
 export class CoreModule {}
