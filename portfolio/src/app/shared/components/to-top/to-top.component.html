@@ -1,0 +1,10 @@
+<a routerLink="./" fragment="top">
+  <div
+    class="scroll-to-top"
+    [ngClass]="{ 'show-button': windowScrolled }"
+    (click)="scrollToTop()"
+  >
+    <i class="material-icons">expand_less</i>
+    <span>Back to Top</span>
+  </div>
+</a>

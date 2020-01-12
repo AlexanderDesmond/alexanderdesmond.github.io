@@ -1,6 +1,29 @@
 section {
   height: 100vh;
   width: 100vw;
+
+  .scroll-up-button {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+    margin-right: 2vw;
+    margin-bottom: 2vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    i {
+      font-size: 5rem;
+      color: white;
+    }
+
+    span {
+      color: white;
+    }
+  }
 }
 
 .background-container {
@@ -9,28 +32,29 @@ section {
   background-size: cover;
   background-position: right right;
   background-attachment: fixed;
-}
 
-.triangle {
-  position: absolute;
-  bottom: 0;
+  .triangle {
+    position: absolute;
+    bottom: 0;
 
-  border-bottom: 75vh solid white;
-  border-left: 100vw solid transparent;
-}
+    border-bottom: 75vh solid white;
+    border-left: 100vw solid transparent;
+  }
 
-.me {
-  position: absolute;
-  bottom: 0;
+  .me {
+    position: absolute;
+    bottom: 0;
+    right: 0;
 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
-  margin-left: 75vw;
-  margin-bottom: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 10vh;
 
-  color: #202020;
+    color: #202020;
+  }
 }
 
 h2 {
@@ -38,4 +62,8 @@ h2 {
 
   font-size: 4vw;
   font-weight: 300;
+}
+
+.white-background {
+  background-color: #f0f0f0;
 }

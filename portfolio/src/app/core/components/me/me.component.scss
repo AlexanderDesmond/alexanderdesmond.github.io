@@ -98,3 +98,11 @@ h2 {
   font-size: 4vw;
   font-weight: 300;
 }
+
+/*
+    Change shadow of Material Cards.
+*/
+.mat-card:not([class*="mat-elevation-z"]) {
+  box-shadow: -3px 3px 3px 0 rgba(0, 0, 0, 0.14),
+    -3px 1px 7px 0 rgba(0, 0, 0, 0.12), -3px 3px 1px -1px rgba(0, 0, 0, 0.2);
+}

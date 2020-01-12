@@ -7,6 +7,7 @@ import { HomeComponent } from "./components/home/home.component";
 import { ProjectsComponent } from "./components/projects/projects.component";
 import { MeComponent } from "./components/me/me.component";
 import { AppRoutingModule } from "../app-routing.module";
+import { SharedModule } from "../shared/shared.module";
 
 @NgModule({
   declarations: [
@@ -15,7 +16,12 @@ import { AppRoutingModule } from "../app-routing.module";
     ProjectsComponent,
     MeComponent
   ],
-  imports: [CommonModule, AngularMaterialModule, AppRoutingModule],
-  exports: [HeaderComponent, HomeComponent, MeComponent]
+  imports: [
+    CommonModule,
+    AngularMaterialModule,
+    AppRoutingModule,
+    SharedModule
+  ],
+  exports: [HeaderComponent, HomeComponent, ProjectsComponent, MeComponent]
 })
 export class CoreModule {}
