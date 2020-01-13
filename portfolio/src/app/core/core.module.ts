@@ -8,13 +8,15 @@ import { ProjectsComponent } from "./components/projects/projects.component";
 import { MeComponent } from "./components/me/me.component";
 import { AppRoutingModule } from "../app-routing.module";
 import { SharedModule } from "../shared/shared.module";
+import { TechnologiesComponent } from './components/me/technologies/technologies.component';
 
 @NgModule({
   declarations: [
     HeaderComponent,
     HomeComponent,
     ProjectsComponent,
-    MeComponent
+    MeComponent,
+    TechnologiesComponent
   ],
   imports: [
     CommonModule,

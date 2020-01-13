@@ -37,4 +37,17 @@
       margin-bottom: 0;
     }
   }
+
+  .github-link {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    margin-right: 3vh;
+    margin-bottom: 3vh;
+
+    img {
+      width: 6vh;
+    }
+  }
 }
