@@ -12,37 +12,37 @@ section {
 
   position: relative;
   z-index: 0;
-}
 
-.triangle {
-  position: absolute;
-  bottom: 0;
+  .triangle {
+    position: absolute;
+    bottom: 0;
 
-  border-bottom: 75vh solid white;
-  border-right: 100vw solid transparent;
-}
-
-.me {
-  position: absolute;
-  bottom: 0;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-  margin-left: 10vw;
-  margin-bottom: 10vw;
-
-  color: #202020;
-
-  h2 {
-    margin: 0;
+    border-bottom: 75vh solid white;
+    border-right: 100vw solid transparent;
   }
 
-  h3 {
-    margin: 0;
-    font-size: 2vw;
-    font-weight: 300;
+  .me {
+    position: absolute;
+    bottom: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-left: 10vw;
+    margin-bottom: 10vw;
+
+    color: #202020;
+
+    h2 {
+      margin: 0;
+    }
+
+    h3 {
+      margin: 0;
+      font-size: 2vw;
+      font-weight: 300;
+    }
   }
 }
 
