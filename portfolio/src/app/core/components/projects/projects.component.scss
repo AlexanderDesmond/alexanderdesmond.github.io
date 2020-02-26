@@ -28,10 +28,6 @@ section {
   }
 }
 
-section:nth-of-type(even) {
-  background-color: #202020;
-}
-
 .background-container {
   // Photo by Markus Spiske on Unsplash
   background-image: url("../../../../assets/images/code.jpg");
@@ -70,5 +66,60 @@ section:nth-of-type(even) {
       font-size: 4vw;
       font-weight: 300;
     }
+  }
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  h3 {
+    margin: 0;
+
+    font-size: 3vw;
+    font-weight: 500;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  h3,
+  p {
+    color: #101010;
+  }
+
+  iframe {
+    border: none;
+
+    width: 80vw;
+    height: 45vw;
+  }
+
+  button {
+    margin: 1rem;
+    padding: 0.2rem;
+
+    //background-image: url("../../../../assets/images/logos/GitHub_Logo_White.png");
+    background-image: url("../../../../assets/images/logos/GitHub-Mark-Light-120px-plus.png");
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: left center;
+    background-size: contain;
+
+    span {
+      padding: 0 0.2rem 0 5rem;
+    }
+  }
+}
+
+section:nth-of-type(even) {
+  background-color: #202020;
+
+  h3,
+  p {
+    color: #f0f0f0;
   }
 }

@@ -11,12 +11,16 @@ import { MatSidenavModule } from "@angular/material/sidenav";
 // Layout
 import { MatCardModule } from "@angular/material/card";
 
+// Buttons
+import { MatButtonModule } from "@angular/material/button";
+
 const modules: any[] = [
   MatToolbarModule,
   MatIconModule,
   MatMenuModule,
   MatSidenavModule,
-  MatCardModule
+  MatCardModule,
+  MatButtonModule
 ];
 
 @NgModule({
