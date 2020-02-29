@@ -62,7 +62,6 @@ section {
 
     h2 {
       margin: 0;
-
       //font-size: 4vw;
       font-size: 6vh;
       font-weight: 300;
@@ -75,6 +74,8 @@ section {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+
+  padding: 2rem 0 1rem 0;
 
   h3 {
     margin: 0;
