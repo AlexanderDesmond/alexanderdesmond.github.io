@@ -36,11 +36,13 @@ section {
 
     h2 {
       margin: 0;
+      margin-right: 24vw;
     }
 
     h3 {
       margin: 0;
-      font-size: 2vw;
+      //font-size: 2vw;
+      font-size: 3vh;
       font-weight: 300;
     }
   }
@@ -60,6 +62,7 @@ section {
 
   h2 {
     margin-top: 10%;
+    text-align: center;
   }
 
   .technologies {
@@ -100,7 +103,8 @@ section {
 }
 
 h2 {
-  font-size: 4vw;
+  //font-size: 4vw;
+  font-size: 6vh;
   font-weight: 300;
 }
 
